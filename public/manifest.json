@@ -1,16 +1,26 @@
 {
-    "name": "Laravel PWA",
-    "short_name": "LPT",
-    "background_color": "#6777ef",
-    "display": "fullscreen",
-    "description": "A Progressive Web Application setup for Laravel projects.",
-    "theme_color": "#6777ef",
-    "start_url": "/",
-    "icons": [
+    "name": "CV Nicol\u00e1s Santa Ana",
+    "short_name": "NicoDev",
+    "description": "CV digital de Nicol\u00e1s Santa Ana \u2013 Senior Full Stack Developer & Freelance",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#0d6efd",
+    "screenshots": [
         {
-            "src": "logo.png",
-            "sizes": "512x512",
+            "src": "/screenshots/home-desktop.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "/screenshots/home-mobile.png",
+            "sizes": "375x812",
             "type": "image/png"
         }
-    ]
+    ],
+    "start_url": "/",
+    "icons": {
+        "192x192": "/icons/icon-192x192.png",
+        "512x512": "/icons/icon-512x512.png"
+    }
 }
